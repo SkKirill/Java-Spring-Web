@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: flowers
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/java_first_lab
+    username: postgres
+    password: PG12345
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
